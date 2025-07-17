@@ -16,7 +16,7 @@ class PackageCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       margin: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 16.0),
-      color: Colors.pink[50],
+      color: Colors.pink[900],
       clipBehavior: Clip.hardEdge,
       child: InkWell(
         splashColor: Colors.blue.withAlpha(30),
@@ -31,6 +31,7 @@ class PackageCard extends StatelessWidget {
                 width: double.infinity,
                 height: 300,
                 fit: BoxFit.cover,
+                // color: Colors.pink.withOpacity(0.09),
               ),
 
               // Title
